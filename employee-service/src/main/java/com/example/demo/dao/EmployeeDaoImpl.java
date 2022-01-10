@@ -5,10 +5,11 @@ import java.util.List;
 import java.util.UUID;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import com.example.demo.model.Employee;
 
-@Component
+@Repository
 public class EmployeeDaoImpl implements EmployeeDao {
 	private List<Employee> employees;
 	

@@ -1,0 +1,8 @@
+logging:
+  file:
+    name: employee-ws.log
+server:
+  port: 8082
+spring:
+  application:
+    name: employee-service
