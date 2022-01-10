@@ -6,3 +6,9 @@ server:
 spring:
   application:
     name: employee-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'

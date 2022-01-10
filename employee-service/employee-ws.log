@@ -78,3 +78,98 @@
 2022-01-10 12:18:12.181  INFO 1160 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-01-10 12:18:12.184  INFO 1160 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-01-10 12:18:12.184  INFO 1160 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-01-10 12:31:54.432  INFO 1160 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-10 12:34:57.984  INFO 11432 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 11432 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-10 12:34:57.987  INFO 11432 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-10 12:34:58.066  INFO 11432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-10 12:34:58.067  INFO 11432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-10 12:34:59.751  INFO 11432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-10 12:34:59.784  INFO 11432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-10 12:34:59.784  INFO 11432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-10 12:34:59.887  INFO 11432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-10 12:34:59.888  INFO 11432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1819 ms
+2022-01-10 12:35:00.652  INFO 11432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-10 12:35:00.659  INFO 11432 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-10 12:35:00.715  INFO 11432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-10 12:35:00.734  INFO 11432 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 3.456 seconds (JVM running for 4.876)
+2022-01-10 12:35:02.919  INFO 11432 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-10 12:35:02.921  INFO 11432 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-10 12:35:02.923  INFO 11432 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-10 12:35:52.198  INFO 11432 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 11432 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-10 12:35:52.199  INFO 11432 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-10 12:35:52.610  INFO 11432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-10 12:35:52.611  INFO 11432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-10 12:35:52.611  INFO 11432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-10 12:35:52.632  INFO 11432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-10 12:35:52.632  INFO 11432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 430 ms
+2022-01-10 12:35:52.837  INFO 11432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-10 12:35:52.840  INFO 11432 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-10 12:35:52.858  INFO 11432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-10 12:35:52.866  INFO 11432 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.708 seconds (JVM running for 57.008)
+2022-01-10 12:35:52.869  INFO 11432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-10 12:35:57.669  INFO 11432 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-10 12:35:57.671  INFO 11432 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-10 12:35:57.673  INFO 11432 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-10 12:37:47.314  INFO 11432 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 11432 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-10 12:37:47.314  INFO 11432 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-10 12:37:47.666  INFO 11432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-10 12:37:47.667  INFO 11432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-10 12:37:47.667  INFO 11432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-10 12:37:47.688  INFO 11432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-10 12:37:47.688  INFO 11432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 371 ms
+2022-01-10 12:37:47.889  INFO 11432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-10 12:37:47.892  INFO 11432 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-10 12:37:47.906  INFO 11432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-10 12:37:47.914  INFO 11432 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.637 seconds (JVM running for 172.056)
+2022-01-10 12:37:47.916  INFO 11432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-10 12:37:54.214  INFO 11432 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-10 12:37:54.216  INFO 11432 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-10 12:37:54.218  INFO 11432 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-10 12:39:50.847  INFO 11432 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-10 12:41:48.757  INFO 3084 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 3084 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-10 12:41:48.759  INFO 3084 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-10 12:41:48.825  INFO 3084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-10 12:41:48.825  INFO 3084 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-10 12:41:50.380  INFO 3084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-10 12:41:50.413  INFO 3084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-10 12:41:50.414  INFO 3084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-10 12:41:50.534  INFO 3084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-10 12:41:50.534  INFO 3084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1708 ms
+2022-01-10 12:41:51.376  INFO 3084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-10 12:41:51.389  INFO 3084 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-10 12:41:51.482  INFO 3084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-10 12:41:51.509  INFO 3084 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 3.426 seconds (JVM running for 4.845)
+2022-01-10 12:41:51.563  INFO 3084 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-10 12:41:51.564  INFO 3084 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-10 12:41:51.567  INFO 3084 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-10 12:42:45.158  INFO 3084 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 3084 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-10 12:42:45.159  INFO 3084 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-10 12:42:45.600  INFO 3084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-10 12:42:45.601  INFO 3084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-10 12:42:45.601  INFO 3084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-10 12:42:45.620  INFO 3084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-10 12:42:45.620  INFO 3084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 456 ms
+2022-01-10 12:42:45.826  INFO 3084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-10 12:42:45.830  INFO 3084 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-10 12:42:45.847  INFO 3084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-10 12:42:45.855  INFO 3084 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.741 seconds (JVM running for 59.192)
+2022-01-10 12:42:45.865  INFO 3084 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-10 12:42:49.787  INFO 3084 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-10 12:42:49.787  INFO 3084 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-10 12:42:49.791  INFO 3084 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-01-10 12:44:42.380  INFO 3084 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 3084 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-10 12:44:42.380  INFO 3084 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-10 12:44:42.741  INFO 3084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-10 12:44:42.742  INFO 3084 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-10 12:44:42.742  INFO 3084 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-10 12:44:42.763  INFO 3084 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-10 12:44:42.764  INFO 3084 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 380 ms
+2022-01-10 12:44:42.921  INFO 3084 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-10 12:44:42.926  INFO 3084 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-10 12:44:42.939  INFO 3084 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-10 12:44:42.951  INFO 3084 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.615 seconds (JVM running for 176.287)
+2022-01-10 12:44:42.953  INFO 3084 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-10 12:44:53.297  INFO 3084 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-10 12:44:53.299  INFO 3084 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-10 12:44:53.302  INFO 3084 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-10 12:48:21.730  INFO 3084 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
