@@ -9,5 +9,7 @@ public interface EmployeeDao {
 	public Collection<Employee> getAllEmployees();
 	
 	public Employee createEmployee(Employee employee);
+	
+	public Employee findEmployeeByEmployeeId(String employeeId);
 
 }

@@ -25,6 +25,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 	@Override
 	public Collection<Employee> getAllEmployees() {
 		// TODO Auto-generated method stub
+		System.out.println(employeeMap.keySet());
 		return employeeMap.values();
 	}
 
@@ -35,5 +36,15 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		employeeMap.put(UUID.randomUUID().toString(), employee);
 		return employee;
 	}
+
+	@Override
+	public Employee findEmployeeByEmployeeId(String employeeId) {
+		
+		Employee employee=employeeMap.get(employeeId);
+		return employee;
+	}
+	
+	
+	
 
 }

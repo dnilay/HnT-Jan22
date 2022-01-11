@@ -51,3 +51,51 @@
 2022-01-11 09:33:45.234  INFO 9664 --- [http-nio-8082-exec-1] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@20a34f89
 2022-01-11 09:33:45.238  INFO 9664 --- [http-nio-8082-exec-1] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
 2022-01-11 09:34:42.773  INFO 9664 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-11 09:57:30.625  INFO 4948 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 4948 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 09:57:30.627  INFO 4948 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 09:57:30.700  INFO 4948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-11 09:57:30.700  INFO 4948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-11 09:57:32.122  INFO 4948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 09:57:32.167  INFO 4948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 09:57:32.168  INFO 4948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 09:57:32.258  INFO 4948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 09:57:32.259  INFO 4948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1558 ms
+2022-01-11 09:57:32.991  INFO 4948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 09:57:33.000  INFO 4948 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 09:57:33.053  INFO 4948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 09:57:33.070  INFO 4948 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 3.016 seconds (JVM running for 4.393)
+2022-01-11 09:57:35.363  INFO 4948 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 09:57:35.365  INFO 4948 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 09:57:35.367  INFO 4948 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-11 09:57:51.977  INFO 4948 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 09:57:51.978  INFO 4948 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@84894ba
+2022-01-11 09:57:51.980  INFO 4948 --- [http-nio-8082-exec-3] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 09:58:29.773  INFO 4948 --- [http-nio-8082-exec-5] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 09:58:29.773  INFO 4948 --- [http-nio-8082-exec-5] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@29c6aa95
+2022-01-11 09:58:29.773  INFO 4948 --- [http-nio-8082-exec-5] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 09:59:12.055  INFO 4948 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-11 10:03:19.857  INFO 3408 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 3408 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:03:19.859  INFO 3408 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:03:19.938  INFO 3408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-11 10:03:19.938  INFO 3408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-11 10:03:21.211  INFO 3408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:03:21.237  INFO 3408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:03:21.237  INFO 3408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:03:21.314  INFO 3408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:03:21.315  INFO 3408 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1376 ms
+2022-01-11 10:03:21.988  INFO 3408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:03:21.995  INFO 3408 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:03:22.047  INFO 3408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:03:22.063  INFO 3408 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 2.711 seconds (JVM running for 3.882)
+2022-01-11 10:03:22.331  INFO 3408 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:03:22.333  INFO 3408 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:03:22.334  INFO 3408 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-11 10:03:32.661  INFO 3408 --- [http-nio-8082-exec-1] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:03:32.661  INFO 3408 --- [http-nio-8082-exec-1] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@16220766
+2022-01-11 10:03:32.667  INFO 3408 --- [http-nio-8082-exec-1] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:04:02.009  INFO 3408 --- [http-nio-8082-exec-4] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:04:02.010  INFO 3408 --- [http-nio-8082-exec-4] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@c90f89d
+2022-01-11 10:04:02.010  INFO 3408 --- [http-nio-8082-exec-4] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:04:28.560  INFO 3408 --- [http-nio-8082-exec-6] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:04:28.560  INFO 3408 --- [http-nio-8082-exec-6] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@6a1776a6
+2022-01-11 10:04:28.561  INFO 3408 --- [http-nio-8082-exec-6] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
