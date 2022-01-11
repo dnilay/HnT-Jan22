@@ -37,14 +37,14 @@ public class EmployeeController {
 		return "employee service is running on port: " + environment.getProperty("local.server.port");
 	}
 
-	@GetMapping("/employees")
+	@GetMapping(value="/employees",produces = { "application/xml", "text/xml" })
 	public ResponseEntity<Collection<Employee>> getAllEmployees() {
 		
 
 		return ResponseEntity.status(HttpStatus.OK).body(employeeDao.getAllEmployees());
 
 	}
-	@PostMapping("/employees")
+	@PostMapping(value="/employees",produces = { "application/xml", "text/xml" })
 	public ResponseEntity<Employee> createEmployee(@RequestBody Employee employee)
 	{
 		String str[]=UUID.randomUUID().toString().split("-");
@@ -54,9 +54,11 @@ public class EmployeeController {
 		return ResponseEntity.status(HttpStatus.CREATED).body( employeeDao.createEmployee(employee));
 	}
 	
-	@GetMapping("/employees/{employeeId}")
+	@GetMapping(value="/employees/{employeeId}",produces = { "application/xml", "text/xml" })
 	public ResponseEntity<Employee> findEmployee(@PathVariable("employeeId") String employeeId)
 	{
+		Employee employee=employeeDao.findEmployeeByEmployeeId(employeeId);
+		System.out.println(employee);
 		return ResponseEntity.status(HttpStatus.FOUND).body(employeeDao.findEmployeeByEmployeeId(employeeId));
 	}
 

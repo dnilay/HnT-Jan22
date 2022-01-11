@@ -2,6 +2,7 @@ package com.example.demo.dao;
 
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.UUID;
 
@@ -39,12 +40,21 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
 	@Override
 	public Employee findEmployeeByEmployeeId(String employeeId) {
-		
-		Employee employee=employeeMap.get(employeeId);
+		Collection<Employee> set = employeeMap.values();
+		Employee employee = null;
+		Iterator<Employee> iterator = set.iterator();
+		while (iterator.hasNext()) {
+			Employee employee2=iterator.next();
+			
+			if(employee2.getEmployeeId().equals(employeeId))
+			{
+				employee=employee2;
+			}
+				
+				
+		}
+
 		return employee;
 	}
-	
-	
-	
 
 }

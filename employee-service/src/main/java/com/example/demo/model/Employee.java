@@ -16,6 +16,11 @@ public class Employee {
 	private String firstName;
 	private String lastName;
 	private String email;
+	@Override
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName + ", email="
+				+ email + "]";
+	}
 	
 	
 

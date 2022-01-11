@@ -99,3 +99,434 @@
 2022-01-11 10:04:28.560  INFO 3408 --- [http-nio-8082-exec-6] c.example.demo.rest.EmployeeController   : setting the employee id
 2022-01-11 10:04:28.560  INFO 3408 --- [http-nio-8082-exec-6] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@6a1776a6
 2022-01-11 10:04:28.561  INFO 3408 --- [http-nio-8082-exec-6] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:17:12.979  INFO 3408 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-11 10:21:00.452  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 13036 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:21:00.453  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:21:00.528  INFO 13036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-11 10:21:00.529  INFO 13036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-11 10:21:02.175  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:21:02.206  INFO 13036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:21:02.207  INFO 13036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:21:02.306  INFO 13036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:21:02.306  INFO 13036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1776 ms
+2022-01-11 10:21:03.127  INFO 13036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:21:03.135  INFO 13036 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:21:03.195  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:21:03.215  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 3.396 seconds (JVM running for 4.764)
+2022-01-11 10:21:05.960  INFO 13036 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:21:05.961  INFO 13036 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:21:05.963  INFO 13036 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-11 10:21:08.259  INFO 13036 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:21:08.260  INFO 13036 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@469e8f59
+2022-01-11 10:21:08.269  INFO 13036 --- [http-nio-8082-exec-2] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:21:23.846  INFO 13036 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:21:23.848  INFO 13036 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@30044767
+2022-01-11 10:21:23.849  INFO 13036 --- [http-nio-8082-exec-3] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:23:09.033  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 13036 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:23:09.034  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:23:09.413  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:23:09.414  INFO 13036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:23:09.414  INFO 13036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:23:09.429  INFO 13036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:23:09.429  INFO 13036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 391 ms
+2022-01-11 10:23:09.678  INFO 13036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:23:09.681  INFO 13036 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:23:09.697  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:23:09.706  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.719 seconds (JVM running for 131.255)
+2022-01-11 10:23:09.708  INFO 13036 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:23:17.920  INFO 13036 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:23:17.922  INFO 13036 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:23:17.923  INFO 13036 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-11 10:23:22.758  INFO 13036 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:23:22.759  INFO 13036 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@5100583b
+2022-01-11 10:23:22.759  INFO 13036 --- [http-nio-8082-exec-3] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:28:04.568  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 13036 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:28:04.568  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:28:04.887  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:28:04.888  INFO 13036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:28:04.889  INFO 13036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:28:04.910  INFO 13036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:28:04.911  INFO 13036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 340 ms
+2022-01-11 10:28:05.077  INFO 13036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:28:05.081  INFO 13036 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:28:05.095  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:28:05.103  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.569 seconds (JVM running for 426.653)
+2022-01-11 10:28:05.111  INFO 13036 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:28:10.570  INFO 13036 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:28:10.570  INFO 13036 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:28:10.572  INFO 13036 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-11 10:28:10.576  INFO 13036 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:28:10.576  INFO 13036 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@56c7e7cd
+2022-01-11 10:28:10.577  INFO 13036 --- [http-nio-8082-exec-2] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:28:18.373 ERROR 13036 --- [http-nio-8082-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException] with root cause
+
+java.util.NoSuchElementException: null
+	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1495) ~[na:na]
+	at java.base/java.util.HashMap$ValueIterator.next(HashMap.java:1521) ~[na:na]
+	at com.example.demo.dao.EmployeeDaoImpl.findEmployeeByEmployeeId(EmployeeDaoImpl.java:50) ~[classes/:na]
+	at com.example.demo.rest.EmployeeController.findEmployee(EmployeeController.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.5.8.jar:2.5.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-01-11 10:28:24.466 ERROR 13036 --- [http-nio-8082-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException] with root cause
+
+java.util.NoSuchElementException: null
+	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1495) ~[na:na]
+	at java.base/java.util.HashMap$ValueIterator.next(HashMap.java:1521) ~[na:na]
+	at com.example.demo.dao.EmployeeDaoImpl.findEmployeeByEmployeeId(EmployeeDaoImpl.java:50) ~[classes/:na]
+	at com.example.demo.rest.EmployeeController.findEmployee(EmployeeController.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.5.8.jar:2.5.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-01-11 10:28:56.550  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 13036 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:28:56.551  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:28:56.892  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:28:56.894  INFO 13036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:28:56.894  INFO 13036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:28:56.912  INFO 13036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:28:56.912  INFO 13036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 360 ms
+2022-01-11 10:28:57.116  INFO 13036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:28:57.121  INFO 13036 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:28:57.142  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:28:57.153  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.638 seconds (JVM running for 478.702)
+2022-01-11 10:28:57.156  INFO 13036 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:29:02.632  INFO 13036 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:29:02.633  INFO 13036 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:29:02.635  INFO 13036 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-11 10:29:02.641  INFO 13036 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:29:02.643  INFO 13036 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@288a48e4
+2022-01-11 10:29:02.643  INFO 13036 --- [http-nio-8082-exec-2] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:29:18.921 ERROR 13036 --- [http-nio-8082-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException] with root cause
+
+java.util.NoSuchElementException: null
+	at java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1495) ~[na:na]
+	at java.base/java.util.HashMap$ValueIterator.next(HashMap.java:1521) ~[na:na]
+	at com.example.demo.dao.EmployeeDaoImpl.findEmployeeByEmployeeId(EmployeeDaoImpl.java:50) ~[classes/:na]
+	at com.example.demo.rest.EmployeeController.findEmployee(EmployeeController.java:60) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96) ~[spring-boot-actuator-2.5.8.jar:2.5.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-01-11 10:30:24.746  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 13036 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:30:24.747  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:30:25.043  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:30:25.043  INFO 13036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:30:25.044  INFO 13036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:30:25.058  INFO 13036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:30:25.058  INFO 13036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 309 ms
+2022-01-11 10:30:25.220  INFO 13036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:30:25.224  INFO 13036 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:30:25.239  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:30:25.248  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.535 seconds (JVM running for 566.797)
+2022-01-11 10:30:25.250  INFO 13036 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:30:38.351  INFO 13036 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:30:38.352  INFO 13036 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:30:38.354  INFO 13036 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-11 10:30:44.323  INFO 13036 --- [http-nio-8082-exec-4] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:30:44.324  INFO 13036 --- [http-nio-8082-exec-4] c.example.demo.rest.EmployeeController   : returning newly created employee com.example.demo.model.Employee@7e5939be
+2022-01-11 10:30:44.325  INFO 13036 --- [http-nio-8082-exec-4] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:32:14.245  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 13036 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:32:14.245  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:32:14.601  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:32:14.602  INFO 13036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:32:14.602  INFO 13036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:32:14.618  INFO 13036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:32:14.618  INFO 13036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 368 ms
+2022-01-11 10:32:14.772  INFO 13036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:32:14.775  INFO 13036 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:32:14.791  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:32:14.799  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.589 seconds (JVM running for 676.349)
+2022-01-11 10:32:14.801  INFO 13036 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:32:26.981  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 13036 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:32:26.981  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:32:27.308  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:32:27.309  INFO 13036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:32:27.309  INFO 13036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:32:27.323  INFO 13036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:32:27.324  INFO 13036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 341 ms
+2022-01-11 10:32:27.472  INFO 13036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:32:27.475  INFO 13036 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:32:27.490  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:32:27.499  INFO 13036 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.547 seconds (JVM running for 689.048)
+2022-01-11 10:32:27.501  INFO 13036 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:32:36.091  INFO 13036 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:32:36.092  INFO 13036 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:32:36.094  INFO 13036 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-11 10:32:36.097  INFO 13036 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:32:36.098  INFO 13036 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : returning newly created employee Employee [employeeId=ea348b44, firstName=Sachin, lastName=Tendulkar, email=sachin@email.com]
+2022-01-11 10:32:36.100  INFO 13036 --- [http-nio-8082-exec-2] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:33:33.586  INFO 13036 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-11 10:34:59.690  INFO 8376 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 8376 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:34:59.692  INFO 8376 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:34:59.759  INFO 8376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-11 10:34:59.760  INFO 8376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-11 10:35:01.247  INFO 8376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:35:01.276  INFO 8376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:35:01.276  INFO 8376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:35:01.363  INFO 8376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:35:01.363  INFO 8376 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1602 ms
+2022-01-11 10:35:02.119  INFO 8376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:35:02.134  INFO 8376 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:35:02.235  INFO 8376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:35:02.265  INFO 8376 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 3.178 seconds (JVM running for 4.553)
+2022-01-11 10:35:02.378  INFO 8376 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:35:02.379  INFO 8376 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:35:02.381  INFO 8376 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-11 10:35:09.661  INFO 8376 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:35:09.662  INFO 8376 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : returning newly created employee Employee [employeeId=ff032d10, firstName=Sachin, lastName=Tendulkar, email=sachin@email.com]
+2022-01-11 10:35:09.667  INFO 8376 --- [http-nio-8082-exec-2] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:35:19.583  WARN 8376 --- [http-nio-8082-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotWritableException: No converter for [class com.example.demo.model.Employee] with preset Content-Type 'null']
+2022-01-11 10:36:20.201  INFO 8376 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 8376 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:36:20.201  INFO 8376 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:36:20.606  INFO 8376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:36:20.606  INFO 8376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:36:20.607  INFO 8376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:36:20.623  INFO 8376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:36:20.623  INFO 8376 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 418 ms
+2022-01-11 10:36:20.838  INFO 8376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:36:20.843  INFO 8376 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:36:20.859  INFO 8376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:36:20.869  INFO 8376 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.712 seconds (JVM running for 83.158)
+2022-01-11 10:36:20.872  INFO 8376 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:36:53.809  INFO 8376 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-11 10:37:07.585  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 6412 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:37:07.587  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:37:07.660  INFO 6412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-11 10:37:07.660  INFO 6412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-11 10:37:09.222  INFO 6412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:37:09.233  INFO 6412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:37:09.234  INFO 6412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:37:09.315  INFO 6412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:37:09.316  INFO 6412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1655 ms
+2022-01-11 10:37:10.043  INFO 6412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:37:10.051  INFO 6412 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:37:10.181  INFO 6412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:37:10.220  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 4.76 seconds (JVM running for 6.303)
+2022-01-11 10:37:11.846  INFO 6412 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:37:11.848  INFO 6412 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:37:11.851  INFO 6412 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-11 10:37:12.874  INFO 6412 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:37:12.876  INFO 6412 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : returning newly created employee Employee [employeeId=3999e77e, firstName=Sachin, lastName=Tendulkar, email=sachin@email.com]
+2022-01-11 10:37:12.883  INFO 6412 --- [http-nio-8082-exec-2] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:38:07.042  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 6412 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:38:07.042  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:38:07.516  INFO 6412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:38:07.519  INFO 6412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:38:07.520  INFO 6412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:38:07.542  INFO 6412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:38:07.542  INFO 6412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 496 ms
+2022-01-11 10:38:07.796  INFO 6412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:38:07.800  INFO 6412 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:38:07.824  INFO 6412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:38:07.836  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.836 seconds (JVM running for 63.919)
+2022-01-11 10:38:07.841  INFO 6412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:38:39.514  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 6412 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:38:39.514  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:38:40.022  INFO 6412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:38:40.024  INFO 6412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:38:40.024  INFO 6412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:38:40.043  INFO 6412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:38:40.043  INFO 6412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 524 ms
+2022-01-11 10:38:40.736  INFO 6412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:38:40.742  INFO 6412 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:38:40.773  INFO 6412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:38:40.794  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 1.332 seconds (JVM running for 96.878)
+2022-01-11 10:38:40.802  INFO 6412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:38:42.624  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 6412 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:38:42.625  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:38:43.002  INFO 6412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:38:43.003  INFO 6412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:38:43.003  INFO 6412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:38:43.024  INFO 6412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:38:43.025  INFO 6412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 397 ms
+2022-01-11 10:38:43.234  INFO 6412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:38:43.238  INFO 6412 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:38:43.255  INFO 6412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:38:43.264  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.683 seconds (JVM running for 99.347)
+2022-01-11 10:38:43.266  INFO 6412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:38:46.631  INFO 6412 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:38:46.634  INFO 6412 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:38:46.637  INFO 6412 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-01-11 10:38:46.644  INFO 6412 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:38:46.645  INFO 6412 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : returning newly created employee Employee [employeeId=9c8ae7f1, firstName=Sachin, lastName=Tendulkar, email=sachin@email.com]
+2022-01-11 10:38:46.646  INFO 6412 --- [http-nio-8082-exec-2] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:38:58.965  INFO 6412 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:38:58.966  INFO 6412 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : returning newly created employee Employee [employeeId=ba204eac, firstName=John, lastName=Doe, email=john@email.com]
+2022-01-11 10:38:58.966  INFO 6412 --- [http-nio-8082-exec-3] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:39:35.819  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 6412 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 10:39:35.819  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 10:39:36.112  INFO 6412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 10:39:36.113  INFO 6412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 10:39:36.113  INFO 6412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 10:39:36.129  INFO 6412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 10:39:36.129  INFO 6412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 308 ms
+2022-01-11 10:39:36.283  INFO 6412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 10:39:36.286  INFO 6412 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 10:39:36.299  INFO 6412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 10:39:36.309  INFO 6412 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 0.521 seconds (JVM running for 152.393)
+2022-01-11 10:39:36.311  INFO 6412 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-01-11 10:39:42.742  INFO 6412 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 10:39:42.743  INFO 6412 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 10:39:42.745  INFO 6412 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-11 10:39:42.754  INFO 6412 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:39:42.755  INFO 6412 --- [http-nio-8082-exec-2] c.example.demo.rest.EmployeeController   : returning newly created employee Employee [employeeId=44459e11, firstName=John, lastName=Doe, email=john@email.com]
+2022-01-11 10:39:42.756  INFO 6412 --- [http-nio-8082-exec-2] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:39:55.215  INFO 6412 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 10:39:55.216  INFO 6412 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : returning newly created employee Employee [employeeId=9eaa9d83, firstName=Marry, lastName=Public, email=marry@email.com]
+2022-01-11 10:39:55.216  INFO 6412 --- [http-nio-8082-exec-3] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 10:40:28.460  INFO 6412 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
