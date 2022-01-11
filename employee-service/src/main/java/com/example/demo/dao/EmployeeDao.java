@@ -1,11 +1,13 @@
 package com.example.demo.dao;
 
-import java.util.List;
+import java.util.Collection;
 
 import com.example.demo.model.Employee;
 
 public interface EmployeeDao {
+
+	public Collection<Employee> getAllEmployees();
 	
-	public List<Employee> getAllEmployees();
+	public Employee createEmployee(Employee employee);
 
 }

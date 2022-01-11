@@ -1,30 +1,39 @@
 package com.example.demo.dao;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import com.example.demo.model.Employee;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Repository
+@Slf4j
 public class EmployeeDaoImpl implements EmployeeDao {
-	private List<Employee> employees;
-	
-	{
-		employees=new ArrayList<Employee>();
-		employees.add(new Employee(UUID.randomUUID().toString(), "John", "Doe", "john@email.com"));
-		employees.add(new Employee(UUID.randomUUID().toString(), "Marry", "Public", "marry@email.com"));
-		employees.add(new Employee(UUID.randomUUID().toString(), "Rahul", "Dravid", "rahul@email.com"));
-		employees.add(new Employee(UUID.randomUUID().toString(), "Jonty", "Roads", "jonty@email.com"));
+
+	private Map<String, Employee> employeeMap;
+
+	public EmployeeDaoImpl() {
+		employeeMap = new HashMap<String, Employee>();
+
 	}
 
 	@Override
-	public List<Employee> getAllEmployees() {
+	public Collection<Employee> getAllEmployees() {
 		// TODO Auto-generated method stub
-		return employees;
+		return employeeMap.values();
+	}
+
+	@Override
+	public Employee createEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		log.info("putting new employee to employee map");
+		employeeMap.put(UUID.randomUUID().toString(), employee);
+		return employee;
 	}
 
 }
