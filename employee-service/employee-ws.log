@@ -552,3 +552,4 @@ java.util.NoSuchElementException: null
 2022-01-11 11:34:50.108  WARN 8888 --- [http-nio-8082-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.demo.exception.EmployeeNotFoundException: employee with 44459e11 not found]
 2022-01-11 11:35:24.417  WARN 8888 --- [http-nio-8082-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.demo.exception.EmployeeNotFoundException: employee with 3227cd7 not found]
 2022-01-11 11:36:59.141  WARN 8888 --- [http-nio-8082-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.demo.exception.EmployeeNotFoundException: employee with 3227cd7 not found]
+2022-01-11 12:06:48.824  INFO 8888 --- [RMI TCP Connection(38)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
