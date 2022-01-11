@@ -530,3 +530,25 @@ java.util.NoSuchElementException: null
 2022-01-11 10:39:55.216  INFO 6412 --- [http-nio-8082-exec-3] c.example.demo.rest.EmployeeController   : returning newly created employee Employee [employeeId=9eaa9d83, firstName=Marry, lastName=Public, email=marry@email.com]
 2022-01-11 10:39:55.216  INFO 6412 --- [http-nio-8082-exec-3] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
 2022-01-11 10:40:28.460  INFO 6412 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-11 11:34:26.841  INFO 8888 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Starting EmployeeServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 8888 (C:\Users\Nilay\eclipse-workspace\employee-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\employee-service)
+2022-01-11 11:34:26.842  INFO 8888 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : No active profile set, falling back to default profiles: default
+2022-01-11 11:34:26.941  INFO 8888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-11 11:34:26.941  INFO 8888 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-11 11:34:28.611  INFO 8888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-01-11 11:34:28.628  INFO 8888 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-11 11:34:28.628  INFO 8888 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-11 11:34:28.738  INFO 8888 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-11 11:34:28.739  INFO 8888 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1797 ms
+2022-01-11 11:34:29.489  INFO 8888 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-11 11:34:29.497  INFO 8888 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-11 11:34:29.552  INFO 8888 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-01-11 11:34:29.572  INFO 8888 --- [restartedMain] c.e.demo.EmployeeServiceApplication      : Started EmployeeServiceApplication in 3.413 seconds (JVM running for 4.741)
+2022-01-11 11:34:31.932  INFO 8888 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-11 11:34:31.933  INFO 8888 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-11 11:34:31.935  INFO 8888 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-11 11:34:38.710  INFO 8888 --- [http-nio-8082-exec-1] c.example.demo.rest.EmployeeController   : setting the employee id
+2022-01-11 11:34:38.713  INFO 8888 --- [http-nio-8082-exec-1] c.example.demo.rest.EmployeeController   : returning newly created employee Employee [employeeId=3227cd77, firstName=Marry, lastName=Public, email=marry@email.com]
+2022-01-11 11:34:38.719  INFO 8888 --- [http-nio-8082-exec-1] com.example.demo.dao.EmployeeDaoImpl     : putting new employee to employee map
+2022-01-11 11:34:50.108  WARN 8888 --- [http-nio-8082-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.demo.exception.EmployeeNotFoundException: employee with 44459e11 not found]
+2022-01-11 11:35:24.417  WARN 8888 --- [http-nio-8082-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.demo.exception.EmployeeNotFoundException: employee with 3227cd7 not found]
+2022-01-11 11:36:59.141  WARN 8888 --- [http-nio-8082-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.demo.exception.EmployeeNotFoundException: employee with 3227cd7 not found]
