@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.dto.ProductDto;
@@ -24,6 +25,7 @@ import com.example.demo.ui.ProductRequestModel;
 import com.example.demo.ui.ProductResponseModel;
 
 @RestController
+@RequestMapping("/api/v1/products/")
 public class ProductController {
 
 	private final Environment environment;
@@ -36,13 +38,13 @@ public class ProductController {
 		this.modelMapper = modelMapper;
 	}
 
-	@GetMapping("/")
+	@GetMapping("/status")
 	public ResponseEntity<String> getStatus() {
 		return ResponseEntity
 				.ok("product-ws is up and running on port: " + environment.getProperty("local.server.port"));
 	}
 
-	@PostMapping("/products")
+	@PostMapping("/")
 	public ResponseEntity<ProductResponseModel> createProduct(@Validated @RequestBody ProductRequestModel productRequestModel) {
 		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
 
@@ -51,7 +53,7 @@ public class ProductController {
 		return ResponseEntity.status(HttpStatus.CREATED).body(modelMapper.map(productDto, ProductResponseModel.class));
 	}
 
-	@GetMapping("/products/{productId}")
+	@GetMapping("/{productId}")
 	public ResponseEntity<ProductResponseModel> findProductById(@PathVariable("productId") String productId) {
 		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
 
@@ -61,7 +63,7 @@ public class ProductController {
 		return ResponseEntity.status(HttpStatus.OK).body(productResponseModel);
 	}
 
-	@GetMapping("/products")
+	@GetMapping("/")
 	public ResponseEntity<?> getAllProducts() {
 		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
 
@@ -77,14 +79,14 @@ public class ProductController {
 
 	}
 	
-	@DeleteMapping("/products/{productId}")
+	@DeleteMapping("/{productId}")
 	public ResponseEntity<?> deleteProduct(@PathVariable("productId") String productId)
 	{
 		productService.deleteProduct(productId);
 		return ResponseEntity.status(HttpStatus.OK).build();
 	}
 
-	@PutMapping("/products/{productId}")
+	@PutMapping("/{productId}")
 	public ResponseEntity<ProductResponseModel> updateProductById(@RequestBody ProductRequestModel productRequestModel,@PathVariable("productId") String productId)
 	{
 		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);

@@ -3337,3 +3337,38 @@ Caused by: org.hibernate.MappingException: Repeated column in mapping for entity
 2022-01-12 12:34:15.963  WARN 7904 --- [RMI TCP Connection(6)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
 2022-01-12 12:34:15.965  INFO 7904 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-01-12 12:34:15.974  INFO 7904 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-12 12:52:59.069  INFO 8876 --- [restartedMain] c.e.demo.ProductServiceApplication       : Starting ProductServiceApplication using Java 11.0.12 on DESKTOP-0TBE2U5 with PID 8876 (C:\Users\Nilay\eclipse-workspace\product-service\target\classes started by Nilay in C:\Users\Nilay\eclipse-workspace\product-service)
+2022-01-12 12:52:59.071  INFO 8876 --- [restartedMain] c.e.demo.ProductServiceApplication       : No active profile set, falling back to default profiles: default
+2022-01-12 12:52:59.134  INFO 8876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-12 12:52:59.134  INFO 8876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-12 12:53:00.296  INFO 8876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-12 12:53:00.332  INFO 8876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
+2022-01-12 12:53:00.992  INFO 8876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2022-01-12 12:53:01.003  INFO 8876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-12 12:53:01.004  INFO 8876 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-12 12:53:01.105  INFO 8876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-12 12:53:01.106  INFO 8876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1971 ms
+2022-01-12 12:53:01.233  INFO 8876 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-12 12:53:01.473  INFO 8876 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-12 12:53:01.482  INFO 8876 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testDB'
+2022-01-12 12:53:01.697  INFO 8876 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-12 12:53:01.760  INFO 8876 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.33
+2022-01-12 12:53:01.921  INFO 8876 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-12 12:53:02.096  INFO 8876 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-12 12:53:02.892  INFO 8876 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-12 12:53:02.903  INFO 8876 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 12:53:03.080  WARN 8876 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-12 12:53:03.649  INFO 8876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-01-12 12:53:03.656  INFO 8876 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-01-12 12:53:03.719  INFO 8876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2022-01-12 12:53:03.738  INFO 8876 --- [restartedMain] c.e.demo.ProductServiceApplication       : Started ProductServiceApplication in 5.212 seconds (JVM running for 6.506)
+2022-01-12 12:53:04.499  INFO 8876 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-12 12:53:04.500  INFO 8876 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-12 12:53:04.503  INFO 8876 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-12 12:54:03.990  WARN 8876 --- [http-nio-8083-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.demo.ui.ProductResponseModel> com.example.demo.controller.ProductController.createProduct(com.example.demo.ui.ProductRequestModel): [Field error in object 'productRequestModel' on field 'productPrice': rejected value [1001.0]; codes [Range.productRequestModel.productPrice,Range.productPrice,Range.java.lang.Double,Range]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [productRequestModel.productPrice,productPrice]; arguments []; default message [productPrice],1000,1]; default message [must be between 1 and 1000]] ]
+2022-01-12 12:55:01.060  INFO 8876 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-12 12:55:01.290  INFO 8876 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-12 12:55:01.291  INFO 8876 --- [RMI TCP Connection(5)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-12 12:55:01.522  WARN 8876 --- [RMI TCP Connection(5)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-01-12 12:55:01.525  INFO 8876 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-12 12:55:01.533  INFO 8876 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
