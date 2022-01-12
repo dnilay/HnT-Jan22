@@ -13,7 +13,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -23,12 +22,19 @@ public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer id;
-	@Column(name = "PRODUCT_ID",unique = true)
+	@Column(name = "PRODUCT_ID", unique = true)
 	private String productId;
-	@Column(name = "PRODUCT_NAME",unique = true)
+	@Column(name = "PRODUCT_NAME", unique = true)
 	private String productName;
 	@Column(name = "PRODUCT_TYPE")
 	@Enumerated(EnumType.STRING)
 	private ProductType productType;
+
+	public Product(String productId, String productName, ProductType productType) {
+		super();
+		this.productId = productId;
+		this.productName = productName;
+		this.productType = productType;
+	}
 
 }

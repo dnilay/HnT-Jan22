@@ -17,6 +17,8 @@ spring:
       enabled: true
       settings:
         web-allow-others: true
+  jpa:
+    show-sql: true
 logging:
   file:
     name: product-ws.log
