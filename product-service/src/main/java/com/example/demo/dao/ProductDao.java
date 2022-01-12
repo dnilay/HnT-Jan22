@@ -13,7 +13,7 @@ public interface ProductDao {
 	
 	public void deleteProductById(String productId);
 	
-	public Product updateProductById(String productId);
+	public Product updateProductById(Product product, String productId);
 	
 	
 }

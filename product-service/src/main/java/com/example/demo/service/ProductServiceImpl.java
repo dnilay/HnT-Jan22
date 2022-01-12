@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.dao.ProductDao;
 import com.example.demo.dto.ProductDto;
-import com.example.demo.exception.ProductNotFoundException;
 import com.example.demo.model.Product;
 
 @Service
@@ -47,9 +46,22 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	public ProductDto findProductById(String productId) {
 		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
-		Product product=productDao.getProductById(productId);
-	
+		Product product = productDao.getProductById(productId);
+
 		return modelMapper.map(product, ProductDto.class);
+	}
+
+	@Override
+	public void deleteProduct(String productId) {
+		productDao.deleteProductById(productId);
+
+	}
+
+	@Override
+	public ProductDto updateProductById(ProductDto productDto, String productId) {
+		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+		
+		return modelMapper.map(productDao.updateProductById(modelMapper.map(productDto, Product.class), productId),ProductDto.class);
 	}
 
 }

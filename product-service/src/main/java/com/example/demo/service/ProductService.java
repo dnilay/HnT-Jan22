@@ -11,5 +11,9 @@ public interface ProductService {
 	public List<ProductDto> getAllProducts();
 	
 	public ProductDto findProductById(String productId);
+	
+	public void deleteProduct(String productId);
+	
+	public ProductDto updateProductById(ProductDto productDto,String productId);
 
 }

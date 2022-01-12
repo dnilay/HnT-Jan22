@@ -58,15 +58,21 @@ public class ProductDaoImpl implements ProductDao {
 	}
 
 	@Override
+	@Transactional
 	public void deleteProductById(String productId) {
-		// TODO Auto-generated method stub
+		Product product=getProductById(productId);
+		entityManager.remove(product);
 
 	}
 
 	@Override
-	public Product updateProductById(String productId) {
-		// TODO Auto-generated method stub
-		return null;
+	@Transactional
+	public Product updateProductById(Product product, String productId) {
+		Product product1=getProductById(productId);
+		product1.setProductName(product.getProductName());
+		product1.setProductType(product.getProductType());
+		entityManager.merge(product1);
+		return product1;
 	}
 
 }
