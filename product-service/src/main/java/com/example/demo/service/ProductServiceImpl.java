@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.dao.ProductDao;
 import com.example.demo.dto.ProductDto;
+import com.example.demo.exception.ProductNotFoundException;
 import com.example.demo.model.Product;
 
 @Service
@@ -27,21 +28,28 @@ public class ProductServiceImpl implements ProductService {
 	public ProductDto createProduct(ProductDto productDto) {
 		productDto.setProductId(UUID.randomUUID().toString());
 		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
-		Product product=modelMapper.map(productDto, Product.class);
-		
-		return modelMapper.map(productDao.createNewProduct(product),ProductDto.class);
+		Product product = modelMapper.map(productDto, Product.class);
+
+		return modelMapper.map(productDao.createNewProduct(product), ProductDto.class);
 	}
 
 	@Override
 	public List<ProductDto> getAllProducts() {
 		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
-	List<Product> list=productDao.getAllProducts();
-	List<ProductDto> dtos=new ArrayList<ProductDto>();
-	for(Product p:list)
-	{
-		dtos.add(modelMapper.map(p, ProductDto.class));
-	}
+		List<Product> list = productDao.getAllProducts();
+		List<ProductDto> dtos = new ArrayList<ProductDto>();
+		for (Product p : list) {
+			dtos.add(modelMapper.map(p, ProductDto.class));
+		}
 		return dtos;
+	}
+
+	@Override
+	public ProductDto findProductById(String productId) {
+		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+		Product product=productDao.getProductById(productId);
+	
+		return modelMapper.map(product, ProductDto.class);
 	}
 
 }

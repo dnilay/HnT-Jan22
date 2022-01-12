@@ -1,15 +1,14 @@
 package com.example.demo.dao;
 
 import java.util.List;
-
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.example.demo.exception.ProductNotFoundException;
 import com.example.demo.model.Product;
 
 @Repository
@@ -24,22 +23,50 @@ public class ProductDaoImpl implements ProductDao {
 	}
 
 	@Override
-	
+
 	public List<Product> getAllProducts() {
-	
+
 		TypedQuery<Product> query = entityManager.createQuery("SELECT P FROM Product P", Product.class);
 		List<Product> list = query.getResultList();
-		
+
 		return list;
 	}
 
 	@Override
 	@Transactional
 	public Product createNewProduct(Product product) {
-		
+
 		entityManager.persist(product);
-		
+
 		return product;
+	}
+
+	@Override
+	@Transactional
+	public Product getProductById(String productId) {
+		TypedQuery<Product> query = entityManager.createQuery("SELECT P FROM Product P where P.productId=:pId",
+				Product.class);
+		query.setParameter("pId", productId);
+		List<Product> list=query.getResultList();
+		
+		System.out.println(list);
+		if(list.isEmpty())
+		{
+			throw new ProductNotFoundException("product with id "+productId+" not found");
+		}
+		return list.get(0);
+	}
+
+	@Override
+	public void deleteProductById(String productId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Product updateProductById(String productId) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

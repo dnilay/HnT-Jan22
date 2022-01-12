@@ -9,5 +9,7 @@ public interface ProductService {
 	public ProductDto createProduct(ProductDto productDto);
 
 	public List<ProductDto> getAllProducts();
+	
+	public ProductDto findProductById(String productId);
 
 }
