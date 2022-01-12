@@ -9,6 +9,7 @@ import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -42,7 +43,7 @@ public class ProductController {
 	}
 
 	@PostMapping("/products")
-	public ResponseEntity<ProductResponseModel> createProduct(@RequestBody ProductRequestModel productRequestModel) {
+	public ResponseEntity<ProductResponseModel> createProduct(@Validated @RequestBody ProductRequestModel productRequestModel) {
 		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
 
 		ProductDto productDto = productService.createProduct(modelMapper.map(productRequestModel, ProductDto.class));

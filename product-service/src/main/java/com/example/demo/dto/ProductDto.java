@@ -13,5 +13,6 @@ public class ProductDto {
 	private String productId;
 	private String productName;
 	private String productType;
-
+	private Boolean isDeliverable;
+	private Double productPrice;
 }

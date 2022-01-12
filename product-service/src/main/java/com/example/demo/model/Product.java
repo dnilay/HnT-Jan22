@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -29,12 +31,22 @@ public class Product {
 	@Column(name = "PRODUCT_TYPE")
 	@Enumerated(EnumType.STRING)
 	private ProductType productType;
-
-	public Product(String productId, String productName, ProductType productType) {
+	@Column(nullable = false,name = "DELIVERABLE")
+	@JsonProperty
+	private Boolean isDeliverable;
+	@Column(name = "PRODUCT_PRICE",nullable = false)
+	private Double productPrice;
+	public Product(String productId, String productName, ProductType productType, Boolean isDeliverable,
+			Double productPrice) {
 		super();
 		this.productId = productId;
 		this.productName = productName;
 		this.productType = productType;
+		this.isDeliverable = isDeliverable;
+		this.productPrice = productPrice;
 	}
+	
+
+	
 
 }

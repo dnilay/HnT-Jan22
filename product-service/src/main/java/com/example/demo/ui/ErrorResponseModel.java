@@ -14,5 +14,6 @@ public class ErrorResponseModel {
 	private String message;
 	private Integer statusCode;
 	private Long errorReportingTime;
+	
 
 }
