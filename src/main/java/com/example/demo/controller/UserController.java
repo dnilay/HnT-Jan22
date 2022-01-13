@@ -10,6 +10,7 @@ import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,11 +22,13 @@ public class UserController {
 
     private final UserService userService;
     private final ModelMapper modelMapper;
+    private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Autowired
-    public UserController(UserService userService, ModelMapper modelMapper) {
+    public UserController(UserService userService, ModelMapper modelMapper,BCryptPasswordEncoder bCryptPasswordEncoder) {
         this.userService = userService;
         this.modelMapper = modelMapper;
+        this.bCryptPasswordEncoder=bCryptPasswordEncoder;
     }
 
     @PostMapping("/users")
@@ -34,9 +37,7 @@ public class UserController {
         modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
         UserDto userDto=modelMapper.map(userDetails,UserDto.class);
         userDto.setUserId(UUID.randomUUID().toString());
-        StringBuilder sb=new StringBuilder();
-        sb.append(userDto.getPassword());
-        userDto.setEncryptedPassword(sb.reverse().toString());
+        userDto.setEncryptedPassword(bCryptPasswordEncoder.encode(userDto.getPassword()));
         CreateUserResponseModel userResponseModel=userService.createUser(userDto);
         return ResponseEntity.status(HttpStatus.CREATED).body(userResponseModel);
 
