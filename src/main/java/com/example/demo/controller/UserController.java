@@ -10,10 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.UUID;
 
 @RestController
@@ -28,7 +27,7 @@ public class UserController {
         this.modelMapper = modelMapper;
     }
 
-    @PostMapping
+    @PostMapping("/users")
     public ResponseEntity<CreateUserResponseModel> createUser(@Validated @RequestBody CreateUserRequestModel userDetails)
     {
         modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
@@ -40,5 +39,16 @@ public class UserController {
         CreateUserResponseModel userResponseModel=userService.createUser(userDto);
         return ResponseEntity.status(HttpStatus.CREATED).body(userResponseModel);
 
+    }
+
+    @GetMapping("/users")
+    public ResponseEntity<List<CreateUserResponseModel>> displayAllUsers()
+    {
+        return ResponseEntity.ok(userService.getAllUsers());
+    }
+    @GetMapping("/users/{id}")
+    public ResponseEntity<CreateUserResponseModel> getEmployeeById(@PathVariable("id") Long id)
+    {
+        return ResponseEntity.ok(userService.getUserById(id));
     }
 }

@@ -5,6 +5,7 @@ spring:
         url: jdbc:h2:mem:testDB
         username: sa
         password: sa
+       # driver-class-name: org.h2.Driver
     h2:
         console:
             enabled: true
@@ -13,6 +14,10 @@ spring:
             path: /h2
     jpa:
         show-sql: true
+        hibernate:
+            ddl-auto: create
+        #database-platform: org.hibernate.dialect.H2Dialect
+        defer-datasource-initialization: true
 management:
     endpoints:
         web:
