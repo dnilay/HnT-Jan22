@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import com.example.demo.exception.UserNotFoundException;
 import com.example.demo.service.UserService;
 import com.example.demo.shared.UserDto;
 import com.example.demo.ui.CreateUserRequestModel;
@@ -46,9 +47,20 @@ public class UserController {
     {
         return ResponseEntity.ok(userService.getAllUsers());
     }
-    @GetMapping("/users/{id}")
+   /* @GetMapping("/users/{id}")
     public ResponseEntity<CreateUserResponseModel> getEmployeeById(@PathVariable("id") Long id)
     {
         return ResponseEntity.ok(userService.getUserById(id));
+    }*/
+    @GetMapping("/users/{email}")
+    public ResponseEntity<CreateUserResponseModel> findUserByEmail(@PathVariable("email") String email)
+    {
+        CreateUserResponseModel createUserResponseModel=userService.findUserByEmail(email);
+        if(createUserResponseModel==null)
+        {
+            throw new UserNotFoundException("user with email--> "+email+" not found");
+        }
+        return ResponseEntity.ok(createUserResponseModel);
     }
+
 }

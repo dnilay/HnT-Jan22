@@ -56,8 +56,17 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
-    public Optional<CreateUserResponseModel> findUserByEmail(String email) {
-        return Optional.empty();
+    public CreateUserResponseModel findUserByEmail(String email) {
+        Optional<UserEntity> optionalUserEntity=userRepository.findByEmail(email);
+        if (optionalUserEntity.isPresent())
+        {
+            return modelMapper.map(optionalUserEntity.get(),CreateUserResponseModel.class);
+        }
+        else
+        {
+            return null;
+        }
+
     }
 
 

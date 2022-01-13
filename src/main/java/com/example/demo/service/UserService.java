@@ -15,5 +15,5 @@ public interface UserService {
 
     public List<CreateUserResponseModel> getAllUsers();
 
-    public Optional<CreateUserResponseModel> findUserByEmail(String email);
+    public CreateUserResponseModel findUserByEmail(String email);
 }
